@@ -14,27 +14,39 @@
 
 /* Typography */
 
+/* Setting the body on a slightly wonky serif */
 body {
   font-family: "Gentium Book Basic", serif;
 }
 
+/* Using our sans-serif for all sectioning */
 h1, h2 {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   color: darkblue;
 }
 
+/* Set our leading to something sane */
+p {
+  line-height: 150%;
+}
+
 /* Header Styles */
 
 header {
+  /* Make a blue box, of a finite width */
   width: 400px;
   background-color: blue;
   margin-bottom: 15px;
+  /* border-radius gives the header container rounded corners */
   border-radius: 20px;
   padding-bottom: 15px;
+  /* Margin trick to center */
   margin: 0px auto 50px auto;
+  /* Rotate the whole thing a bit to look charming and such */
   transform: rotate(-7deg);
 }
 
+/* Only specifies the h1 element(s) in the header container */
 header h1 {
   color: white;
   text-align: center;
@@ -42,6 +54,7 @@ header h1 {
   margin-bottom: 0px;
 }
 
+/* Only specifies the h2 element(s) in the header container */
 header h2 {
   color: white;
   text-align: center;
@@ -50,14 +63,15 @@ header h2 {
   margin-bottom:3px;
 }
 
+/* Our first use of a class! We could ahve just selected the paragrpah element, though... */
 header .fullname {
   font-family: "Architects Daughter";
   background-color: white;
   margin-bottom: 15px;
   display: block;
-  width: 80%;
+  width: 90%;
   margin: 15px auto 0px auto;
-  font-size: 200%;
+  font-size: 350%;
   text-align: center;
   border-radius: 10px;
 }
@@ -66,14 +80,13 @@ header .fullname {
 /* Main Styles */
 
 main {
-  width: 700px; /* Let's set our content width to something static so the line lengths are sane. */
+  width: 640px; /* Let's set our content width to something static so the line lengths are sane. */
   margin: 8px auto 8px auto;
 }
 
 img {
   display: block;
   width: 25%;
-/*  margin: 0px auto 0px auto;*/
 }
 
 
@@ -81,13 +94,14 @@ img {
 /* Footer styles */
 
 footer {
-  width: 700px;
+  width: 660px;
   margin: 15px auto;
   border-top: solid 3px blue;
 }
 
 footer p {
   margin: 15px auto;
+  /* I really enjoy that darkgrey is lighter than grey */
   color: darkgrey;
   font-size: 80%;
 }
