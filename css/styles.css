@@ -23,24 +23,27 @@ body {
 h1, h2 {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   color: darkblue;
+  /* Half the puzzle of getting headers closer to paragraph content */
+  margin: 18px 0px 4px 0px;
 }
 
 /* Set our leading to something sane */
 p {
   line-height: 150%;
+  margin: 0px 0px 8px 0px;
 }
 
 /* Header Styles */
 
 header {
-  /* Make a blue box, of a finite width */
+  /* Make a blue box, of a finite width, with a bit of extra space on the bottom edge */
   width: 400px;
   background-color: blue;
+  padding-bottom: 15px;
   margin-bottom: 15px;
   /* border-radius gives the header container rounded corners */
   border-radius: 20px;
-  padding-bottom: 15px;
-  /* Margin trick to center */
+  /* Margin trick to center the header */
   margin: 0px auto 50px auto;
   /* Rotate the whole thing a bit to look charming and such */
   transform: rotate(-7deg);
@@ -49,6 +52,7 @@ header {
 /* Only specifies the h1 element(s) in the header container */
 header h1 {
   color: white;
+  /* Centers text within the container */
   text-align: center;
   font-size: 600%;
   margin-bottom: 0px;
@@ -57,20 +61,19 @@ header h1 {
 /* Only specifies the h2 element(s) in the header container */
 header h2 {
   color: white;
+  /* Centers text within the container */
   text-align: center;
   font-size: 300%;
   margin-top: 0px;
-  margin-bottom:3px;
+  margin-bottom: 3px;
 }
 
-/* Our first use of a class! We could ahve just selected the paragrpah element, though... */
+/* Our first use of a class! We could have just selected the paragraph element, though... */
 header .fullname {
-  font-family: "Architects Daughter";
+  font-family: "Architects Daughter", cursive;
   background-color: white;
-  margin-bottom: 15px;
-  display: block;
   width: 90%;
-  margin: 15px auto 0px auto;
+  margin: 15px auto 5px auto;
   font-size: 350%;
   text-align: center;
   border-radius: 10px;
@@ -80,7 +83,8 @@ header .fullname {
 /* Main Styles */
 
 main {
-  width: 640px; /* Let's set our content width to something static so the line lengths are sane. */
+  /* Let's set our content width to something static so the line lengths are sane. */
+  width: 640px;
   margin: 8px auto 8px auto;
 }
 
