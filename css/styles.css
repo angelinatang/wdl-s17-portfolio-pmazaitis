@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+
+
+/*
+* {
+  border: black solid 2px;
+  padding: 7px;
+  margin: 7px;
+}
+*/
+
+
+body {
+  font-family: "Palatino", serif;
+/*  color: coral;*/
+/*  background-color: lightgrey;*/
+}
+
+h1, h2 {
+  font-family: "PT Sans", sans-serif;
+  color: darkblue;
+/*  text-decoration: line-through;*/
+  width: 50%;
+/*  margin: 0px auto;*/
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 200px;
+  margin: 0px auto 0px auto;
+}
+
+header {
+  background-color: blue;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-bottom: 15px;
+}
+
+header h1, header h2 {
+  color: white;
+}
+
+footer p {
+  color: burlywood;
+}
