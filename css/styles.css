@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barrio');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Gentium+Book+Basic|Lato:400,700');
 
 
 /*
@@ -9,39 +9,85 @@
 }
 */
 
+/* Baseline Styles */
+
+
+/* Typography */
 
 body {
-  font-family: "Palatino", serif;
-/*  color: coral;*/
-/*  background-color: lightgrey;*/
+  font-family: "Gentium Book Basic", serif;
 }
 
 h1, h2 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
   color: darkblue;
-/*  text-decoration: line-through;*/
-  width: 50%;
-/*  margin: 0px auto;*/
+}
+
+/* Header Styles */
+
+header {
+  width: 400px;
+  background-color: blue;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  padding-bottom: 15px;
+  margin: 0px auto 50px auto;
+  transform: rotate(-7deg);
+}
+
+header h1 {
+  color: white;
   text-align: center;
+  font-size: 600%;
+  margin-bottom: 0px;
+}
+
+header h2 {
+  color: white;
+  text-align: center;
+  font-size: 300%;
+  margin-top: 0px;
+  margin-bottom:3px;
+}
+
+header .fullname {
+  font-family: "Architects Daughter";
+  background-color: white;
+  margin-bottom: 15px;
+  display: block;
+  width: 80%;
+  margin: 15px auto 0px auto;
+  font-size: 200%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+/* Main Styles */
+
+main {
+  width: 700px; /* Let's set our content width to something static so the line lengths are sane. */
+  margin: 8px auto 8px auto;
 }
 
 img {
   display: block;
-  width: 200px;
-  margin: 0px auto 0px auto;
+  width: 25%;
+/*  margin: 0px auto 0px auto;*/
 }
 
-header {
-  background-color: blue;
-  padding-top: 13px;
-  padding-bottom: 13px;
-  margin-bottom: 15px;
-}
 
-header h1, header h2 {
-  color: white;
+
+/* Footer styles */
+
+footer {
+  width: 700px;
+  margin: 15px auto;
+  border-top: solid 3px blue;
 }
 
 footer p {
-  color: burlywood;
+  margin: 15px auto;
+  color: darkgrey;
+  font-size: 80%;
 }
