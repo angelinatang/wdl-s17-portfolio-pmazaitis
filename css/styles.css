@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Gentium+Book+Basic|Lato:400,700');
 
-
+/* We'll leave this here, so we can turn it on and visually inspect how our element layout */
 /*
 * {
   border: black solid 2px;
@@ -9,8 +9,9 @@
 }
 */
 
-/* Baseline Styles */
-
+/*
+ * Baseline Styles
+ */
 
 /* Typography */
 
