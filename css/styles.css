@@ -23,15 +23,26 @@ body {
 /* Using our sans-serif for all sectioning */
 h1, h2 {
   font-family: "Lato", Arial, Helvetica, sans-serif;
-  color: darkblue;
   /* Half the puzzle of getting headers closer to paragraph content */
   margin: 18px 0px 4px 0px;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+h1 {
+  margin-top: 17px;
+  border-bottom: 3px solid blue;
 }
 
 /* Set our leading to something sane */
 p {
   line-height: 150%;
   margin: 0px 0px 8px 0px;
+}
+
+ul {
+  margin-top: 2px;
 }
 
 /* Header Styles */
@@ -56,7 +67,12 @@ header h1 {
   /* Centers text within the container */
   text-align: center;
   font-size: 600%;
+  margin-top: 0px;
   margin-bottom: 0px;
+  border-radius: 15px;
+  background-color: blue;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 /* Only specifies the h2 element(s) in the header container */
@@ -67,6 +83,7 @@ header h2 {
   font-size: 300%;
   margin-top: 0px;
   margin-bottom: 3px;
+  background-color: blue;
 }
 
 /* Our first use of a class! We could have just selected the paragraph element, though... */
